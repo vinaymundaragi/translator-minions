@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --primary-color: #75c9b7;
+}
+body {
+  font-family: "Satisfy", cursive;
+  background-color: #ffe26a;
+}
+
+.navigation {
+  background-color: var(--primary-color);
+  /* color: white; */
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  text-align: center;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero .hero-image {
+  max-width: 300px;
+  display: block;
+  margin: auto;
+}
+
+.hero .hero-heading {
+  padding-top: 1rem;
+  text-align: center;
+  color: var(--blue-color);
+}
+
+.inputField {
+  padding: 2rem;
+  margin-top: 2rem;
+  max-width: 100%;
+  width: 50%;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+  border-radius: 1rem;
+}
+.outputField {
+  padding: 2rem;
+  max-width: 100%;
+  width: 50%;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+  border-radius: 1rem;
+}
+
+#btn-translate {
+  font-family: "Satisfy", cursive;
+  font-size: x-large;
+  padding: 1rem;
+  max-width: 25%;
+  width: 12.5%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 1rem;
+}
+
+.smallerText {
+  padding: 1rem;
+  max-width: 100%;
+  width: 50%;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+}
+
+.footer {
+  background-color: var(--primary-color);
+  display: block;
+  padding: 1rem;
+  text-align: center;
+  /* color: white; */
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
